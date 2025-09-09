@@ -1,3 +1,4 @@
+type СolorsType = 'red' | 'green' | 'blue';
 export interface Figure {
   shape: string;
   color: string;
@@ -8,7 +9,7 @@ export class Triangle implements Figure {
   shape: string;
 
   constructor(
-    public color: string,
+    public color: СolorsType,
     public a: number,
     public b: number,
     public c: number,
