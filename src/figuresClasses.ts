@@ -44,7 +44,7 @@ export class Circle implements Figure {
   shape: string;
 
   constructor(
-    public color: string,
+    public color: ColorsType,
     public radius: number,
   ) {
     this.shape = 'circle';
@@ -65,7 +65,7 @@ export class Rectangle implements Figure {
   shape: string;
 
   constructor(
-    public color: string,
+    public color: ColorsType,
     public width: number,
     public height: number,
   ) {
